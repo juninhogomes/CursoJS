@@ -1,0 +1,2 @@
+Aula 4 - Infos sobre HTML e onde colocar o JS.
+Aula 5 - Introdução e dicas sobre variáveis, comentários e introdução a tipos de dados (no Docs)
