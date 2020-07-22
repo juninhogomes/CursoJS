@@ -1,0 +1,37 @@
+<!-- Link da Aula - https://www.youtube.com/watch?v=OJgu_KCCUSY&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&t=0s -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Módulo B</title>
+
+        <style>
+            H1 {
+                color: antiquewhite;
+                font: Arial;
+            }
+
+            body {
+                background-color: cadetblue;
+                font: 20px Arial;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Olá, mundo!</h1>
+
+        <script>
+            // Uma alternativa a concatenação (+) dentro de uma string, é utilizar o "Template String"
+            // O Template String deve ser colocado dentro de acentos da grave, ou a popular crase, (`)
+
+            var n1 = Number(window.prompt("Digite um número"));
+            var n2 = Number(window.prompt("Digite outro número"));
+            var s = n1 + n2;
+            window.alert(`A soma de ${n1} + ${n2} é igual a ${s}`);
+            // A template String inicia e termina com o acento grave (`) e os inputs são dentro de chaves {}.
+        </script>
+    </body>
+</html>

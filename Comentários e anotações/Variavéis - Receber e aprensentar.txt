@@ -1,0 +1,23 @@
+// ' var nome = window.prompt("Qual é o seu nome?") ' // 
+
+Esse comando diz que a variável (VAR) "nome" está recebendo (=) o código window.prompt. 
+
+--- 
+
+O comando "window" abre uma espécie de alerta na tela. 
+
+Para exibir o resultado do comando, basta inserir a variável, no caso "nome", dentro de outro comando JS. 
+
+Por exemplo: 
+
+// ' window.alert("É um grande prazer em te conhecer " + nome); ' //
+
+---
+
+!!! O sinal de "+" fora das aspas junta, ou concatena, a variável com o restante do comando. !!! 
+
+Caso queira colocar mais coisas depois da variável, não esquecer de concatenar novamente com o sinal de "+" 
+
+Exemplo: 
+
+// window.alert("É um grande prazer em te conhecer " + nome + "!"); //
