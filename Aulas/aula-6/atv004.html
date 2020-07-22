@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <style>
+            body {
+                background-color: cadetblue;
+                font: normal 22pt Arial;
+                color: wheat;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            var nome = window.prompt("Qual é o seu nome?");
+            document.write(
+                `Olá ${nome}! seu nome tem ${nome.length} letras<br>`
+            ); // O document.write vai mostrar o resultado na tela, e não em popup ou janela extra.
+            document.write(
+                `<strong>${nome}</strong>, seu nome todo em maiúsculo é ${nome.toUpperCase()}<br>`
+            );
+            document.write(`Seu nome em minúsculo é ${nome.toLowerCase()}`);
+        </script>
+    </body>
+</html>
