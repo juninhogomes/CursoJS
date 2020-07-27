@@ -1,0 +1,19 @@
+Os operadores ternários dão seguimento a um teste quando for Verdadeiro ou Falso.
+
+? -> Retorno quando verdadeiro
+: -> retorno quando falso
+
+Teste ? 'Retorno se verdadeiro' : 'Retorno se falso'
+
+Exemplo:
+
+    > var nota = 5
+    > nota >= 7 ? 'Aprovado' : 'Reprovado'
+    : Reprovado
+
+Exemplo 2:
+
+    > var idade = 19
+    > var r = idade > 18 ? 'Maior' : 'Menor'
+    : maior
+    

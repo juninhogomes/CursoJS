@@ -28,10 +28,15 @@
         <p>Mas eu já fiz um "Olá, mundo" na aula 4 &nbsp; '-'</p>
 
         <script>
-            alert("Olá, mundo!");
+            alert("Exercício 001!");
             var nome = prompt("Qual o seu nome?");
-
-            document.write(`Olá ${nome}, espero que você esteja bem`);
+            var n1 = Number(prompt("Por favor, digite um número")); // Transforma String em Number
+            var n2 = Number(prompt("Por favor, digite outro número"));
+            var soma = n1 + n2;
+            var nomem = nome.toUpperCase(); // Transforma o texto em UpperCase (Maiúsculas)
+            document.write(
+                `Olá ${nomem}, espero que você esteja bem. A soma dos seus números é ${soma}`
+            ); // para não fazer concatenação, a linha precisa ser aberta e fechada com o acento grave (crase)
         </script>
     </body>
 </html>

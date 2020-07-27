@@ -1,0 +1,27 @@
+<html>
+    <!-- Exercício para conversão de unidades, utilizando "toLocaleString"-->
+    <head>
+        <meta charset="UTF-8" />
+        <title>Conversão de valores em unidades monetárias</title>
+    </head>
+    <h1>Conversão de unidades monetárias</h1>
+    <script>
+        var valor = Number(prompt("Digite um valor"));
+        var valor2 = valor.toFixed(2);
+        var dolar = valor.toLocaleString("en-US", {
+            style: "currency",
+            currency: "USD",
+        });
+        var euro = valor.toLocaleString("en-GB", {
+            style: "currency",
+            currency: "EUR",
+        });
+        document.write(
+            "A unidade monetário brasileira é o real, e o valor fica R$ " +
+                valor2
+        );
+        document.write(
+            `<br><br>A unidade em dólar é ${dolar}, e em Euro fica ${euro}`
+        );
+    </script>
+</html>
