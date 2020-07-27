@@ -1,0 +1,52 @@
+Os operadores relacionais vão fazer uma comparação entre valores ou variáveis
+e vão retornar se o resultado é "Verdeiro" (True) ou "Falso" (false).
+
+O JS analise se os valores são iguais, mas não faz analise de Tipo.
+Ou seja, na hora do teste é possível que um valor seja número e o outro uma string.
+
+
+>   -> Maior que (...),
+<   -> Menor que (...),
+>=  -> Maior ou igual,
+<=  -> Menor ou igual,
+==  -> Igual,
+!=  -> Diferente.
+
+Exemplos:
+
+    5 > 2      => Verdadeiro (true);
+    7 < 4      => Falso (False);
+    8 >= 8     => True;
+    9 <= 7     => False;
+    5 == 5     => True;
+    4 != 4     => False;
+
+Em precedência, as operações aritméticas são realizadas antes das relacionais.
+
+Exemplo com variáveis:
+
+    > var a = 8
+    > var b = 15
+    > a > b
+    : False
+    > a <= b - 10
+    : True
+
+Operadores de identidade: Com três sinais de igualdade o JS vai testar se os dois valores são idênticos, 
+considerando inclusive o tipo.
+
+Exemplos:
+
+    5 == '5'    => True (Dois iguais é relacional)
+    5 === '5'   => False (Três iguais é se é idêntico ou não)
+    5 === 5     => True
+
+
+Também é possível testar se o "Typeof" é igual.
+
+    Exemplo:
+
+    > var a = 'Javascript'
+    > var b = 'Curso'
+    > typeof a == typeof b
+    : True

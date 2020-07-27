@@ -1,0 +1,30 @@
+Tipos de operadores lógicos:
+
+!   => Utilizado para definir uma negação na operação
+&&  => Utilizado para criar uma conjunção, ou seja, colocar uma condição "e"
+||  -> Utilizado para criar uma disjunção, ou seja, uma condição "ou"
+
+
+Precedência: Não (!), e (&&), ou (||)
+-----
+
+Operador de negação = !
+
+Exemplo:
+
+    ! true => False (Algo que NÃO é verdadeiro)
+    ! false => True (Algo que NÃO é falso)
+
+Operador de conjunção = &&
+
+true && true    => Verdadeiro (Quando eu recebo as duas coisas que pedi)
+true && false   => Falso (Nas outras condições eu não recebi as duas coisas que pedi)
+false && true   => Falso
+false && false  => Falso
+
+Operador de disjunção = ||
+
+true || true    => Verdadeiro (Quando eu recebo uma das coisas que recebi)
+true || false   => Verdadeiro (Recebi UMA das duas coisas que recebi)
+false || true   => Verdadeiro
+false || false  => Falso (Não recebi nada do que eu pedi)

@@ -1,0 +1,59 @@
+Tipos de operadores:
+
+ Operadores para fazer cálculos
+
++ -> Faz somas (Exemplo: 5+2 = 7);
+- -> Faz subtrações (Exemplo: 5-2 = 3);
+* -> Faz multiplicações (Exemplo: 5*2 = 10);
+/ -> Faz divisões reais, ou seja, resultado com vírgulas (Exemplo: 5/2 = 2,5);
+
+% -> É o resto da divisão dos números inteiros, 
+    resultado da divisão dos números sem utilizar vírgula (Exemplo: 5/2 = 1);
+
+    ---
+    Explicação:
+    5/2 (2*2 = 4)
+    5-4 = 1
+
+    Para completar a divisão inteira, se colocaria uma virgula e continuaria 
+    multiplicando até zerar o número.
+    O número mostrado pelo operador "%" é o resultado do número do problema 
+    subtraindo todos os valores encontrados sem utilizar a virgula.
+    ---
+
+** -> Calcula a potência (Exemplo: 5 ** 2 = 25);
+
+______________
+
+Precedência: 
+
+(1º) Operações dentro de Parenteses '()'
+(2º) Potência (**),
+(3º) Multiplicação (*), divisão (/) ou Resto da divisão inteira (%),
+(4º) soma (+) ou subtração (-).
+
+
+Os operadores que estiverem dentro de parênteses são prioridades.
+    
+    Por exemplo: 
+    (5+3) / 2 = 4
+    5 + 3 / 2 = 6.5
+
+Operações dentro de colchetes '[]' são executadas e apenas colocada junto do resultado, 
+ou seja, nenhuma outra operação é realizada com o resultado dos colchetes.
+
+    Exemplo:
+    [5+3] + 3/2 = 81,5 (O '8' veio da soma 5+3, e o '1,5' da divisão 3/2)
+    (5+3) + 2 = 10 (Os Parenteses dão prioridade a soma)    
+    5 + 3 / 2 = 6,5 (A divisão vem primeiro do que a soma)
+
+________________________
+
+Exemplo prático de precedência:
+
+var A = 5 + 3      ==> A variável 'a' vai guardar o resultado '8'
+var B = a % 5       ==> O restante da divisão inteira de 8 (A) por 5 é '3'
+var C = 5 * b ** 2  ==> Potência de 3 (B) ao quadrado multiplicado por 5 é '45'
+var D =  10 - a/2   ==> A divisão de 8 (A) por 2, subtraída de 10 é igual a '6'
+var E = 6 * 2 / d   ==> A multiplicação de 6 x 2, dividida por 6 (D) é igual '2'
+var F = b % e + 4 / e   ==> 3 (B) % 2 (E) soma com o resultado de 4 / 2 (E). Resultado '3' 
