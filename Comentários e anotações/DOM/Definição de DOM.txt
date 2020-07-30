@@ -1,0 +1,32 @@
+DOM = Document Object Model
+
+É um conjunto de objetos no navegador que dá acesso aos elementos do site
+
+---
+
+Árvores de DOM
+
+Ela é uma árvore hierárquica de todos os elementos de um site.
+
+A raiz da árvore é o 'window', e todos os outros elementos vem depois dela.
+O 'window' é a janela do navegador.
+
+Elemento é tudo que aparece dentro de uma árvore DOM.
+_________
+
+Exemplo:
+
+[Quem está "em cima" é parent, quem está em baixo é child.
+Por exemplo: 'html' é child de 'document' e é parent de 'head' e 'body']
+
+window -> location; document; history
+    document -> html -> head; body;
+        head -> meta; title; (e todos os elementos que estiverem dentro do head do site)
+            body -> h1; <p>; <div>;
+                p -> strong
+
+
+window (A janela do navegador)
+location (URL do site, página atual, páginas acessadas)      
+document (O documento atual em exibição)
+history (O histórico de navegação, por exemplo )
