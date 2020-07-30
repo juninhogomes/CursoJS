@@ -33,6 +33,8 @@ __________________________________________________________
 
 : lógicos // Define a ação com "não", "e" ou "ou"
 
+Precedência: ! (não), && (e), || (ou)
+
 !   -> Significa negação
 &&  -> Conjunção (e)
 ||  -> disjunção (ou)

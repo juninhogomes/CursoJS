@@ -1,0 +1,34 @@
+<!-- Teste de conhecimento obtidos na aula 7 -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            button {
+                padding: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <button onclick="retorno()">Por favor, clique aqui.</button>
+        <script>
+            var nome = prompt("Qual o seu nome?");
+            var sexo = prompt(
+                "Qual o seu sexo? Por favor, digite 'M' para masculino ou 'F' para feminino"
+            );
+            var salario = prompt("Qual seu salário?");
+
+            var res =
+                sexo == "F" && salario >= 1900 === true
+                    ? "Você atende as exigências"
+                    : "Infelizmente você não atende as exigências";
+
+            function retorno() {
+                alert(`Olá, ${nome}. ${res}`);
+            }
+        </script>
+    </body>
+</html>
