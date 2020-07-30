@@ -1,0 +1,20 @@
+5 meios de acessar os elementos
+
+getElementsBy...()
+
+1) Marca 
+2) Por ID
+3) Por Nome
+4) Por Classe
+5) Por Seletor
+
+________
+
+Selecionar por marca.
+Dessa maneira você pode selecionar mais de um elemento, desde que tenham
+o mesmo nome. Por exemplo, selecionar todos os <P>, <div> ou qualquer
+elemento que tenha o mesmo nome.
+
+
+getElementsByTagName()
+
