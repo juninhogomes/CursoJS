@@ -13,7 +13,8 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
 -   [Desafios](#desafios)
 -   [Exercícios](#exercícios)
 
-## Divisão do repositório
+## Divisão do repositório 
+###### [_voltar ao topo_](#índice)
 
 -   Aulas :speech_balloon:
 
@@ -34,6 +35,7 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
     -   Atividades propostas em aula para executar os códigos estudados. A diferença entre os desafios é que o professor apresenta as soluções desses exercícios.
 
 ## Lista das aulas
+###### [_voltar ao topo_](#índice)
 
 | Aula | Título                                   | Conteúdo da aula                                                                                                       | Possui atividade                                                        | Módulo |
 | ---- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------ |
@@ -50,12 +52,14 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
 | 10   | **Eventos DOM.**                         | ----                                                                                                                   | Sim                                                                     | C      |
 
 ## Desafios
+###### [_voltar ao topo_](#índice)
 
 | Número    | Proposta                                                                       |
 | --------- | ------------------------------------------------------------------------------ |
 | Desafio 1 | Criar três botões, onde cada um vai apresentar uma mensagem diferente na tela. |
 
 ## Exercícios
+###### [_voltar ao topo_](#índice)
 
 | Exercício | Objetivo                                   |
 | --------- | ------------------------------------------ |
