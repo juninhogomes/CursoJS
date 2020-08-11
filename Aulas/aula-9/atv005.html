@@ -16,12 +16,25 @@
     </head>
     <body>
         <h1>Iniciando estudos de DOM</h1>
-        <p>Aqui vai o resultado</p>
+        <p class="resultado">Aqui vai o resultado</p>
         <p>Aprendendo a usar o <strong>DOM</strong> em Javascript</p>
-        <div>Clique em mim</div>
+        <div id="msg">Clique em mim</div>
 
         <script>
-            var p1 = getElementsBy;
+            // Selecionando pelo getElementsBy
+
+            // var corpo = document.body;
+            var p1 = document.getElementsByTagName("p")[1];
+            p1.style.color = "yellow";
+            // var d = document.getElementById("msg");
+            // d.style.background = "green";
+            // d.innerText = "Estou aguardando";
+
+            // Selecionando elementos de uma forma mais atual
+            var p0 = document.querySelector("p.resultado");
+            p0.style.color = "orange";
+            var d = document.querySelector("div#msg");
+            d.style.background = "blue";
         </script>
     </body>
 </html>
