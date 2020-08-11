@@ -1,4 +1,5 @@
 5 meios de acessar os elementos
+(Para ver a forma recomendada, ler o texto sobre querySelector)
 
 getElementsBy...()
 
@@ -8,13 +9,30 @@ getElementsBy...()
 4) Por Classe
 5) Por Seletor
 
+Quando se utiliza o getElements com um "s" no final, significa que depois da definição, nos parenteses,
+é utilizado arrays [] para dizer em qual nível o elemento está. O primeiro elemento é sempre [0].
+
+Em um API grande, é comum utilizar por tag (marca) ou pelos nomes.
+
 ________
 
-Selecionar por marca.
+Selecionar por marca(TAG).
 Dessa maneira você pode selecionar mais de um elemento, desde que tenham
 o mesmo nome. Por exemplo, selecionar todos os <P>, <div> ou qualquer
 elemento que tenha o mesmo nome.
 
+const marca = document.getElementsByTagName("p")[0];
 
-getElementsByTagName()
+________
+
+Selecionar por ID
+
+document.getElementsByid()
+
+________
+
+Selecionar por nome
+
+document.getElementsbyName()
+
 
