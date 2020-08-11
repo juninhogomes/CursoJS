@@ -7,7 +7,7 @@ getElementsBy...()
 2) Por ID
 3) Por Nome
 4) Por Classe
-5) Por Seletor
+5) Por Seletor (querySelector)
 
 Quando se utiliza o getElements com um "s" no final, significa que depois da definição, nos parenteses,
 é utilizado arrays [] para dizer em qual nível o elemento está. O primeiro elemento é sempre [0].
