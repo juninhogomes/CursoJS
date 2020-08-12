@@ -1,8 +1,0 @@
-variávelNumérica.toFixed(n) // O "n" diz quantas casas decimais o número vai ter.
-variávelNumérica.toFixed(n).replace('.' , ",") // Nesse exemplo, além de definir as casas decimais, vai substituir o ponto (.) por vírgula (,)
-
-___
-
-variávelNumérica.toLocaleString('pt-br', (style: 'currency', currency: 'BRL')) 
-// Neste exemplo, converte uma variável numérica para o valor monetário BRL em PT-BR
-// Esse mesmo comando pode ser refeito com 'USD' para Dólar e 'EUR' para Euro.
