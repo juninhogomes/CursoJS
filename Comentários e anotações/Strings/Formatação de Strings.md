@@ -41,6 +41,8 @@ Por exemplo:
 
 > Importante! Template Strings funcionam apenas dentro do da CRASE (`), e os inputs devem ser feito dentro de chaves {}
 
+O comando `${}`é chamado também de **Placeholder**
+
 ______________________
 
 ### Outros comandos para Strings:

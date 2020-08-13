@@ -2,10 +2,59 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Eventos DOM</title>
-    </head>
-    <body></body>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos DOM</title>
+    <style>
+        div#area {
+            font: 20pt Arial;
+            background: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- DOM NO HTML
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        Interaja
+    </div> -->
+
+    <!-- DOM no Javascript não precisa por na tag HTML -->
+    <div id="area">
+        Interaja
+    </div>
+
+    <script>
+        var a = document.getElementById("area")
+
+        // Para adicionar as ações sem precisar por no html
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        // Functions = ações
+
+        function clicar() {
+            a.innerText = 'Clicou'
+            a.style.background = "red"
+        }
+        function entrar() {
+            a.innerText = 'Entrou'
+        }
+        function sair() {
+            a.innerText = 'Saiu'
+            a.style.background = "green";
+        }
+
+    </script>
+</body>
+
 </html>

@@ -48,8 +48,8 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
 | 6    | **Tratamentos de dados.**                | _Editar strings, conversão de tipos, concatenação e como fazer que as variáveis sejam executadas_                      | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-6) | B      |
 | 7    | **Operadores - Parte 1.**                | _Operadores aritméticos, atribuições e precedências_                                                                   | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-7) | B      |
 | 8    | **Operadores - Parte 2.**                | _Operadores relacionais, lógicos e ternário_                                                                           | Não                                                                     | B      |
-| 9    | **Introdução ao DOM.**                   | _O que é DOM, como selecionar elementos, trabalhando com getElement e querySelector_                                   | [Sim]()                                                                 | C      |
-| 10   | **Eventos DOM.**                         | ----                                                                                                                   | Sim                                                                     | C      |
+| 9    | **Introdução ao DOM.**                   | _O que é DOM, como selecionar elementos, trabalhando com getElement e querySelector_                                   | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-9) | C      |
+| 10   | **Eventos DOM.**                         |_Os eventos DOM, Functions e como criar eventos DOM no HTML e JS_                                                       | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-10)| C      |
 
 ## Desafios
 ###### [_voltar ao topo_](#índice)
