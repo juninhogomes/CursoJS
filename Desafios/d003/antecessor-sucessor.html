@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antecessor e Sucessor</title>
+    <style>
+        body {
+            background: darkolivegreen;
+        }
+
+        button {
+            cursor: pointer;
+            position: absolute;
+            /* Para centralizar o botão na tela */
+            margin: 5em -50% 3em 50%;
+            /* top: 50%;
+            margin-right: -50%;
+            bottom: 3em;
+            left: 50%;
+            */
+            /* A função Transform: translate posiciona o elemento em relação aos eixos X e Y  */
+            transform: translate(-50%, -50%);
+            padding: 2rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16pt;
+            background-color: rgb(236, 233, 233);
+            border-radius: 0.5em;
+            border: none;
+        }
+
+        button:hover {
+            background-color: rgb(226, 221, 221);
+        }
+
+        button:active {
+            background-color: cyan;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <button onclick="calculo()">Antecessor e Sucessor</button>
+
+    <script>
+        function calculo() {
+            var numero = Number(prompt('Por favor, digite um número'));
+            n1 = numero - 1
+            n2 = numero + 1
+            alert(`O seu número é ${numero}. O antecessor é ${n1} e o sucessor é ${n2}`)
+        }
+
+    </script>
+</body>
+
+</html>
