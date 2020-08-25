@@ -57,6 +57,9 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
 | Número    | Proposta                                                                       |
 | --------- | ------------------------------------------------------------------------------ |
 | Desafio 1 | Criar três botões, onde cada um vai apresentar uma mensagem diferente na tela. |
+| Desafio 2 | Uma mensagem de boas vindas com o nome e idade do usuário. |
+| Desafio 3 | Ao clicar em um botão, é pedido um número. É dado o resultado do antecessor e do sucessor |
+| Desafio 4 | Calcular o troco do cliente ao comprar um produto |
 
 ## Exercícios
 ###### [_voltar ao topo_](#índice)
