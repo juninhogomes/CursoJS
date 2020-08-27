@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multas</title>
+    <style>
+        div.txt {
+            margin-left: 0.2em;
+            font-weight: 600;
+            text-align: center;
+
+        }
+
+        input#txtvel {
+            display: flex;
+            width: 30vw;
+            margin: 1em auto 0em auto;
+            padding: 1em;
+            font-size: 18px;
+        }
+
+        input#verificar {
+            margin-top: 2em;
+            padding: 1em;
+            width: 100vw;
+            text-align: center;
+        }
+
+        div#velocidade {
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sistema de multas</h1>
+    <div id="container">
+        <div class="txt">Velocidade do carro (km/h)</div>
+        <input type="number" name="txtvel" id="txtvel">
+        <input id="verificar" type="button" value="Verificar" onclick="calcular()">
+        <div id="velocidade"></div>
+    </div>
+
+    <script>
+        function calcular() {
+            // o querySelector vai selecionar o input id=txtvel e jogar dentro da variável "txtv"
+            var textv = document.querySelector('input#txtvel')
+            // o querySelector vai selecionar a div id=velocidade e jogar dentro da variavel res
+            var res = document.querySelector('div#velocidade')
+            // O .value depois do txt significa que a variável "vel" vai receber o VALOR digitado dentro do textv
+            var vel = Number(textv.value)
+
+            // Dentro da div "res" vai ser colocada a frase com o valor obtido na variável vel.
+            // Lembrando que a variável "res" faz alterações diretamente da div#velocidade 
+            res.innerHTML = `<p>A velocidade é de <strong>${vel} Km/h<strong></p>`
+
+            // A condição simples vai definir o que acontece quando ela for verdadeira
+            if (vel > 60) {
+                res.innerHTML += '<p><strong>Está acima da velocidade. Aplicar multa</strong>'
+            }
+            res.innerHTML += `<p>Dirija sempre com segurança, utilize o cinto!</p>`
+        }
+    </script>
+</body>
+
+</html>
