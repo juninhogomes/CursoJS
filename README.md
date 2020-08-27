@@ -48,6 +48,7 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
 | 8    | **Operadores - Parte 2.**                | _Operadores relacionais, lógicos e ternário_                                                                           | Não                                                                     | B      |
 | 9    | **Introdução ao DOM.**                   | _O que é DOM, como selecionar elementos, trabalhando com getElement e querySelector_                                   | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-9) | C      |
 | 10   | **Eventos DOM.**                         |_Os eventos DOM, Functions e como criar eventos DOM no HTML e JS_                                                       | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-10)| C      |
+| 11   | **Condições - Parte 1.**                 |_Introdução a condições, exemplos de condições simples e atividades com JS_                                             | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-11)| D      |
 
 ## Desafios
 
