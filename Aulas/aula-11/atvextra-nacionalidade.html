@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega no exterior</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: rgb(238, 241, 14);
+        }
+
+        p {
+            margin: 1em auto 0em auto;
+        }
+
+        div#container {
+            display: flex;
+            flex-direction: column;
+            margin-left: 0.2em;
+        }
+
+        .chamada {
+            margin-top: 2em;
+        }
+
+        p.chamada,
+        p.chamada2 {
+            font-size: 19px;
+        }
+
+        input#origem,
+        input#destino {
+            margin-top: 0.2em;
+            padding: 0.3em;
+            width: 50vw;
+            font-weight: 600;
+        }
+
+        input#salvar {
+            margin-top: 2em;
+            margin-left: 0.3em;
+            padding: 0.8em;
+            border-radius: 5px;
+            width: 30vw;
+            border: none;
+        }
+
+        input#salvar:hover {
+            background: rgb(238, 253, 248);
+        }
+
+        input#salvar:active {
+            background: aquamarine;
+        }
+
+        table {
+            margin-top: 2em;
+            margin-left: 0.3em;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        @media (min-width: 720px) {
+
+            input#origem,
+            input#destino {
+                width: 10vw;
+            }
+
+            input#salvar {
+                width: 8vw;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Conclusão</h1>
+    <div>
+        <p>Para finalizar seu pedido, precisamos saber o país de entrega</p>
+    </div>
+
+    <div id="container">
+        <div class="entrada">
+            <p class="chamada">Qual o país de origem?</p>
+            <input type="text" name="origem" id="origem">
+        </div>
+        <div class="entrada">
+            <p class="chamada2">Qual o país de destino de entrega?</p>
+            <input type="text" name="destino" id="destino">
+        </div>
+    </div>
+    <input type="button" value="Verificar" id="salvar" onclick="processo()">
+    <div id="retorno">
+        <table>
+            <td id="res"></td>
+        </table>
+    </div>
+
+    <script>
+        function processo() {
+            let orig = document.getElementById("origem").value
+            let dest = document.getElementById("destino").value
+
+            let res = document.querySelector('td#res');
+            if (orig == dest) {
+                res.innerHTML = 'O seu produto será enviado para o próprio país. Não precisa fazer mais nada'
+            } else {
+                res.innerHTML = `Para enviar seu pedido para ${dest}, entre em contato conosco pelo telefone (99) 9999-9999`
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
