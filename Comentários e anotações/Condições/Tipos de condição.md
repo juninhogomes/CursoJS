@@ -61,4 +61,4 @@ A `condição múltipla`é utilizada para valores fixos. Se o programa achar uma
 
 
 
-Para entender mais e ver exemplos sobre a condição switch, ver a nota [Switch - Condições múltiplas]()
+Para entender mais e ver exemplos sobre a condição switch, ver a nota [Switch - Condições múltiplas](https://github.com/juninhogomes/CursoJS/blob/master/Coment%C3%A1rios%20e%20anota%C3%A7%C3%B5es/Condi%C3%A7%C3%B5es/Switch%20-%20Condi%C3%A7%C3%B5es%20m%C3%BAltiplas.md)

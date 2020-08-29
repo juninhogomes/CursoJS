@@ -49,7 +49,8 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
 | 9    | **Introdução ao DOM.**                   | _O que é DOM, como selecionar elementos, trabalhando com getElement e querySelector_                                   | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-9) | C      |
 | 10   | **Eventos DOM.**                         |_Os eventos DOM, Functions e como criar eventos DOM no HTML e JS_                                                       | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-10)| C      |
 | 11   | **Condições - Parte 1.**                 |_Introdução a condições, exemplos de condições simples e atividades com JS_                                             | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-11)| D      |
-| 11   | **Condições - Parte 2.**                 |_Condições aninhadas, condição switch, hora e dia do sistema_                                                           | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-12)| D      |
+| 12   | **Condições - Parte 2.**                 |_Condições aninhadas, condição switch, hora e dia do sistema_                                                           | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-12)| D      |
+| 12.1 | **Aula de Exercício - Parte 1.**         |_Criação do modelo HTML, CSS e javascript_                                                                              | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-exercicios)| D      |
 
 ## Desafios
 
