@@ -51,6 +51,7 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
 | 11   | **Condições - Parte 1.**                 |_Introdução a condições, exemplos de condições simples e atividades com JS_                                             | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-11)| D      |
 | 12   | **Condições - Parte 2.**                 |_Condições aninhadas, condição switch, hora e dia do sistema_                                                           | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-12)| D      |
 | 12.1 | **Aula de Exercício - Parte 1.**         |_Criação do modelo HTML, CSS e javascript_                                                                              | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-exercicios)| D      |
+| 12.2-3 | **Aulas de Exercício - Parte 2 e 3.**  |_Criação de dois sites, um para dizer a hora e outro um banco de imagens. Mudança dinâmica de imagens, criação de tags html e aquisição de informações_ | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-exercicios)| D      |
 
 ## Desafios
 
