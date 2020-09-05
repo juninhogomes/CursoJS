@@ -74,3 +74,9 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
 | --------- | ------------------------------------------ |
 | 01        | Uma mensagem de boas vindas com o .alert() |
 | 02        | Um botão interativo                        |
+| 03        | Entrar um nome e criar alerta com boas vindas  |
+| 04        | Entrar um nome e dar boas vindas na página |
+| 05        | Alerta de bem vindo, calcular o dobro e metade de um número |
+| 06        | Calcular a soma de dois números            |
+| 07        | Fazer a média de notas de um aluno         |
+| 08        | Vários cálculos com um único número        |

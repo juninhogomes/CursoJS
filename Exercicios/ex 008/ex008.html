@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números com JS</title>
+    <style>
+        button {
+            padding: 3em;
+            margin-bottom: 1em;
+        }
+
+        section#res {
+            font: 18px Arial;
+        }
+    </style>
+</head>
+<h1>Vários cáculos em JS</h1>
+<button onclick="calcular()">Clica para começar</button>
+
+<section id="res"></section>
+
+<script>
+    function calcular() {
+        let numero = prompt('Digite qualquer valor')
+        sinal = ''
+        if (Math.sign(numero) == 1) {
+            sinal = 'positivo'
+        } else if (Math.sign(numero) == 0) {
+            sinal = 'igual a zero'
+        } else {
+            sinal = 'negativo'
+        }
+
+        let res = document.querySelector('section#res')
+        res.innerHTML = `O número analisado é o ${numero}`
+        res.innerHTML += `<hr>`
+        res.innerHTML += `<p>Esse número tem o sinal <mark>${sinal}</mark></p>`
+        res.innerHTML += `<p>O valor absoluto é ${Math.abs(numero)}</p>`
+        res.innerHTML += `<p>A sua parte inteira é ${Math.trunc(numero)}</p>`
+        res.innerHTML += `<p>O valor inteiro mais próximo é ${Math.round(numero)}</p>`
+        res.innerHTML += `<p>A raiz quadrada é ${Math.sqrt(numero)}</p>`
+        res.innerHTML += `<p>A raiz cúbica é ${Math.cbrt(numero)}</p>`
+        res.innerHTML += `<p>O valor de ${numero}<sup>2</sup> é igual a ${Math.pow(numero, 2)}</p>`
+        res.innerHTML += `<p>O valor de ${numero}<sup>3</sup> é igual a ${Math.pow(numero, 3)}</p>`
+    }
+</script>
+
+<body>
+
+</body>
+
+</html>
