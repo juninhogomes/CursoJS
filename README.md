@@ -53,6 +53,7 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
 | Aula Exercícios - 12.1 | **Aula de Exercício - Partes 1-3.** |_Criação de dois sites, um para dizer a hora e outro um banco de imagens. Mudança dinâmica de imagens, criação de tags html e aquisição de informações_ | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-exercicios/12.1)| D      |
 | 13   | **Repetições - Parte 1.**                 |_Introdução a Repetições. While e Do-While_                                                           | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-13)| E      |
 | 14   | **Repetições - Parte 2.**                 |_Repetição for e modo depuração_                                                           | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-14)| E      |
+| Aula Exercícios - 14.1 | **Aula de Exercício - Partes 4-6.** |_Criação de duas APIs, uma para contar números seguindo uma quantidade de passos e outra para calcular a tabuada, adicionando elementos e botão de limpar_ | [Sim](https://github.com/juninhogomes/CursoJS/tree/master/Aulas/aula-exercicios/14.1)| E      |
 
 
 ## Desafios

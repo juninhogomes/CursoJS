@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador numérico</title>
+</head>
+
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+
+    <section>
+        <fieldset>
+            <label for="">Inicio</label>
+            <input type="number" name="inicio" id="inicio"> <br>
+
+            <label for="">Fim</label>
+            <input type="number" name="fim" id="fim"> <br>
+
+            <label for="">Passo</label>
+            <input type="number" name="passo" id="passo"> <br>
+
+            <input type="button" value="Iniciar contagem" id="enviar" onclick="contar()">
+        </fieldset>
+
+        <div id="mensagem">Aguardando contagem...</div>
+    </section>
+
+    <footer>
+        <p>&copy; Juninho Gomes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
