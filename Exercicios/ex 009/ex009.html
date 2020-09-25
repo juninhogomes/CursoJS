@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
+    <title>Contador de cliques</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Contador de cliques</h1>
+        <section id="section">
+            <div id="content">
+                <input type="button" id="recebe" value="Clique em mim" onclick="contar()">
+                <input type="button" id="zera" value="Zerar o contador" onclick="limpar()">
+
+                <p id="msg">O contador está com:</p>
+                <p id="res"><mark>0</mark> cliques</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

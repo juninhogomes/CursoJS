@@ -81,3 +81,5 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
 | 06        | Calcular a soma de dois números            |
 | 07        | Fazer a média de notas de um aluno         |
 | 08        | Vários cálculos com um único número        |
+| 09        | Contador de cliques e botão de limpar      |
+| 10        | 4 botões de ação que adicionam frases uma após a outra      |

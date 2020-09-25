@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: green;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-weight: normal;
+    margin: 0.5em auto;
+    text-decoration: underline;
+}
+
+section {
+    background: cornsilk;
+    margin: 0 auto;
+    width: 60%;
+    min-height: 8em;
+    padding: 2em;
+    text-align: center; 
+}
+
+input[type="button"] {
+    margin-bottom: 1em;
+    margin-right: 1em;
+    padding: 2em;
+    font-weight: 400;
+}
+
+#msg, 
+#res {
+    font-size: 22px;
+    line-height: 1.5em;
+}
+
+#res {
+    text-decoration: underline;
+}
+
+@media (min-width: 701px) {
+    section {
+    width: 90%;
+    }
+
+input[type="button"] {
+        margin-top: 4em;
+        margin-bottom: 3em;
+        padding: 5em;
+        font-size: 16px
+    }
+
+    #msg,
+    #res {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 700px) {
+input[type="button"] {
+    margin-right: 0.5em;
+    padding: 1.6em;
+    }
+}
