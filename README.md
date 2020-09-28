@@ -79,3 +79,8 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
 | 08        | Vários cálculos com um único número        |
 | 09        | Contador de cliques e botão de limpar      |
 | 10        | 4 botões de ação que adicionam frases uma após a outra      |
+| 11        | Calcular a média de duas notas, e fazer comentário sobre a nota      |
+| 12        | Diz se um número é par ou ímpar      |
+| 13        | Entre dois números, diz qual o maior      |
+| 14-15        | Informações de dia e hora do sistema      |
+| 16        | Calcular a idade a partir do ano digitado     |
