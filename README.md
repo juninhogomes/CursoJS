@@ -84,3 +84,5 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
 | 13        | Entre dois números, diz qual o maior      |
 | 14-15        | Informações de dia e hora do sistema      |
 | 16        | Calcular a idade a partir do ano digitado     |
+| 17        | Gerar um número aleatório     |
+| 18        | Adivinhar um número de 1 a 100     |
