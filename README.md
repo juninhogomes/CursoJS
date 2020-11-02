@@ -8,10 +8,12 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
 
 ## Índice
 
--   [Como o repositório está dividido](#divisão-do-repositório)
--   [Listagem das aulas](#lista-das-aulas)
--   [Desafios](#desafios)
--   [Exercícios](#exercícios)
+- [CursoJS](#cursojs)
+  - [Índice](#índice)
+  - [Divisão do repositório](#divisão-do-repositório)
+  - [Lista das aulas](#lista-das-aulas)
+  - [Desafios](#desafios)
+  - [Exercícios](#exercícios)
 
 ## Divisão do repositório 
 ###### [_voltar ao topo_](#índice)
@@ -90,3 +92,4 @@ O curso é voltado para uma introdução ao Javascript, apresentado conceitos b�
 | 16        | Calcular a idade a partir do ano digitado     |
 | 17        | Gerar um número aleatório     |
 | 18        | Adivinhar um número de 1 a 100     |
+| 19        | Com dois números, escolher uma operação aritmética a ser realizada     |
